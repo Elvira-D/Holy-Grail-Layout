@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header, footer {
+            background-color: cadetblue;
+            height: 15vh;
+        }
+
+        aside {
+            display: flex;
+            height: 70vh;
+            background-color: darkgray;
+            flex: 1;
+            justify-content: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            height: 70vh;
+            background-color: darkgray;
+            flex: 1;
+
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 5px;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+
+
+        article {
+            height: 70vh;
+            background-color: aliceblue;
+            flex: 4;
+            display: flex;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .logo {
+            width: 200px;
+            height: 90px;
+        }
+
+        .face {
+            display: flex;
+            margin-right: 50px;
+            align-items: center;
+        }
+
+        .face_image {
+            flex: 1;
+        }
+
+        .flex_text {
+            flex: 3;
+        }
+
+        .footer_left {
+            margin-left: 60px;
+        }
+
+        .footer_right {
+            margin-right: 60px;
+        }
+
+        .main_image {
+            flex: 1;
+            margin: 40px;
+        }
+
+        .main_image img {
+            width: 300px;
+            height: 240px;
+            border: 1px solid black;
+        }
+
+        .main_text {
+            flex: 1;
+            margin: 20px 50px;
+        }
+
+        .main {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo img {
+            width: 150px;
+            height: 90px;
+        }
+
+        .face_image img {
+            width: 40px;
+            height: 40px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <header>
+            <div class="logo"><img src="logo.png" alt="Company logo"></div>
+            <div class="face">
+                <div class="face_image"><img src="facebook.png" alt="Facebook logo"></div>
+                <div class="face_text">Follow us</div>
+            </div>
+
+        </header>
+
+        <div class="container">
+            <nav>
+                <div class="nav_link">
+                    <ul>
+                        <li>Home</li>
+                        <li>Projects</li>
+                        <li>Contact us</li>
+
+                    </ul>
+                </div>
+            </nav>
+            <article>
+
+                <div class="main_image"><img src="cloud.jpg" alt="Cloud"></div>
+                <div class="main_text"><h3>PTA Innovation</h3><p>Curabitur iaculis sed risus ac ultrices. Integer sapien nunc, rhoncus et eros vel, fringilla maximus lorem. Nunc vel ipsum justo. Etiam tincidunt commodo metus et fringilla. Vestibulum tellus tortor, sagittis id sem id, posuere fermentum erat. Integer sed hendrerit lectus, id placerat turpis.</p></div>
+            </article>
+
+            <aside>
+                <div class="aside_text"><h4>Latest News</h4><a href="#">New cloud servers</a></div>
+
+            </aside>
+        </div>
+
+        <footer>
+            <div class="footer_left"><p>&copy;Luis Carlos</p></div>
+            <div class="footer_right"><p>Sitemap</p></div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
